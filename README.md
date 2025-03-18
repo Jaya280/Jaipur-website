@@ -1,92 +1,73 @@
-Jaipur Website
+# Jaipur Website
 
-A dynamic, multi-page web application built using Streamlit, providing an interactive and informative experience about Jaipur. This website covers various aspects such as tourism, healthcare, history, and law, and also features an AI-powered chatbot for user interaction.
+A **dynamic, multi-page web application** built using **Streamlit**, providing an interactive and informative experience about **Jaipur**. This website covers various aspects such as **tourism, healthcare, history, and law**, and also features an **AI-powered chatbot** for user interaction.
 
-⭐ Key Features
+## ⭐ Key Features
 
-1️⃣ Home Page
+### 1️⃣ Home Page
+* Provides an overview of Jaipur with a **user-friendly interface**.
+* Easy navigation between different sections of the website.
 
-Provides an overview of Jaipur with a user-friendly interface.
+### 2️⃣ Tourism Page
+* Showcases **popular tourist destinations** in Jaipur.
+* Includes descriptions of **historical landmarks, cultural heritage, and must-visit places**.
 
-Easy navigation between different sections of the website.
+### 3️⃣ Healthcare Page
+* Contains **dummy data for doctor appointments**.
+* Initially planned to integrate a **real-time appointment booking API**, but limited free API access prevented full implementation.
 
-2️⃣ Tourism Page
+### 4️⃣ History Page
+* Provides **detailed historical insights** about Jaipur.
+* Engages users with **fascinating facts and cultural significance**.
 
-Showcases popular tourist destinations in Jaipur.
+### 5️⃣ Law Page
+* Offers **legal information and guidelines** relevant to Jaipur.
+* Helps users understand **local laws and regulations**.
 
-Includes descriptions of historical landmarks, cultural heritage, and must-visit places.
+### 6️⃣ Integrated AI Chatbot (Ollama - LLaMA 2 Model)
+* **Conversational AI chatbot** built using **Ollama's LLaMA 2**.
+* Enhances user experience by providing **quick responses and information**.
+* **Note:** To use the chatbot on another machine, users need to **download the Ollama LLaMA 2 model** locally.
 
-3️⃣ Healthcare Page
-
-Contains dummy data for doctor appointments.
-
-Initially planned to integrate a real-time appointment booking API, but limited free API access prevented full implementation.
-
-4️⃣ History Page
-
-Provides detailed historical insights about Jaipur.
-
-Engages users with fascinating facts and cultural significance.
-
-5️⃣ Law Page
-
-Offers legal information and guidelines relevant to Jaipur.
-
-Helps users understand local laws and regulations.
-
-6️⃣ Integrated AI Chatbot (Ollama - LLaMA 2 Model)
-
-Conversational AI chatbot built using Ollama's LLaMA 2.
-
-Enhances user experience by providing quick responses and information.
-
-Note: To use the chatbot on another machine, users need to download the Ollama LLaMA 2 model locally.
-
-🚀 Technologies Used
-
-Python (Streamlit for web development)
-
-Ollama LLaMA 2 (Chatbot integration)
-
-REST API (planned) for real-time doctor appointment booking
-
-##📌 Installation & Setup
-
+## 📌 Installation & Setup
 To run this project locally, follow these steps:
 
-Clone the repository:
+1. Clone the repository:
+   ```
+   git clone https://github.com/yourusername/jaipur-website.git
+   ```
 
-git clone https://github.com/yourusername/jaipur-website.git
+2. Navigate to the project folder:
+   ```
+   cd jaipur-website
+   ```
 
-Navigate to the project folder:
+3. Install required dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
 
-cd jaipur-website
+4. Run the Streamlit app:
+   ```
+   streamlit run app.py
+   ```
 
-Install required dependencies:
+5. (Optional: To enable chatbot functionality)
+   - Install Ollama on your machine
+   - Download the LLaMA 2 model using:
+     ```
+     ollama pull llama2
+     ```
+     
+## 🚀 Technologies Used
+* **Python** (Streamlit for web development)
+* **Ollama LLaMA 2** (Chatbot integration)
+* **REST API (planned)** for real-time doctor appointment booking
 
-pip install -r requirements.txt
-
-Run the Streamlit app:
-
-streamlit run app.py
-
-(Optional: To enable chatbot functionality)
-
-Install Ollama on your machine
-
-Download the LLaMA 2 model using:
-
-ollama pull llama2
+## 💡 Future Enhancements
+* Full **real-time doctor appointment booking system** using a paid API.
+* Improved **UI/UX with custom CSS and JavaScript**.
+* **Enhanced chatbot capabilities** with multimodal inputs.
 
 
-##💡 Future Enhancements
-
-Full real-time doctor appointment booking system using a paid API.
-
-Improved UI/UX with custom CSS and JavaScript.
-
-Enhanced chatbot capabilities with multimodal inputs.
-
-##📧 Contact & Feedback
-For suggestions or collaboration opportunities, feel free to connect via my email ID jayagarwalfd@gmail.com.
 
