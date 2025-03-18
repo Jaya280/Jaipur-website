@@ -1,7 +1,7 @@
 # Jaipur-website
 A dynamic, multi-page web application built using Streamlit, providing an interactive and informative experience about Jaipur. This website covers various aspects such as tourism, healthcare, history, and law, and also features an AI-powered chatbot for user interaction.
 
-##⭐ Key Features
+⭐ # Key Features
 
 ###1️⃣ Home Page
 
