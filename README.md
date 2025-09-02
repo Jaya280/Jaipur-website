@@ -34,7 +34,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/jaipur-website.git
+   git clone https://github.com/Jaya280/jaipur-website.git
    ```
 
 2. Navigate to the project folder:
